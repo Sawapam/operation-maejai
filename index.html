@@ -1,0 +1,9 @@
+<script>
+fetch("https://script.google.com/macros/s/AKfycbztoVhr0sh1Hvwz-PxTIsQZ_y1Fck3kEVPYTVfgCdQG7oyWWokv3KTxg6dlDSRKS4Un/exec")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("result").innerText = data;
+  });
+</script>
+
+<div id="result"></div>
