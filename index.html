@@ -1,9 +1,17 @@
-<script>
-fetch("https://script.google.com/macros/s/AKfycbztoVhr0sh1Hvwz-PxTIsQZ_y1Fck3kEVPYTVfgCdQG7oyWWokv3KTxg6dlDSRKS4Un/exec")
-  .then(res => res.text())
-  .then(data => {
-    document.getElementById("result").innerText = data;
-  });
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My WebApp</title>
+</head>
+<body>
 
-<div id="result"></div>
+<iframe 
+  src="https://script.google.com/macros/s/AKfycbztoVhr0sh1Hvwz-PxTIsQZ_y1Fck3kEVPYTVfgCdQG7oyWWokv3KTxg6dlDSRKS4Un/exec"
+  width="100%" 
+  height="800px"
+  style="border:none;">
+</iframe>
+
+</body>
+</html>
